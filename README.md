@@ -9,6 +9,16 @@ This is a FastAPI application that provides weather-related services. It allows 
 - **Download weather data as CSV**: Download weather data for cities in CSV format with options to sort the data.
 - **Visualize weather data**: Generate plots based on weather data, allowing visualizations for temperature, wind speed, or humidity.
 
+## Setup
+Clone the repository:
+
+```bash
+git clone git@github.com:cesav-code/weather-application.git
+cd weather-application
+```
+By intentionally i have added api key in .env file. but you can create new one from [openweathermap](https://openweathermap.org/)
+
+
 ## Requirements
 
 To install the required dependencies and create new env, use the following command:
